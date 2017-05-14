@@ -2,23 +2,48 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+<script>
+function check(){
+var s="";
+var i=0;
+if(document.getElementById('fname').value==""){
+s+="First name"
+i++;
+//alert('please enter your first name');
+}
+if(document.getElementById('lname').value==""){
+//alert('please enter your first name');
+s+=" Last name";
+i++;
+}
+if(document.getElementById('email').value==""){
+//alert('please enter your first name');
+s+=" Email";
+i++;
+}
+if(i!=0)
+alert('Please enter your '+s);
+else
+alert('For submitted succesfully');
+}
+</script>
 </head>
 <body>
 <form>
 <h1>Welcome to the XYZ city !!</h1> 
  First name:<br>
-  <input type="text" name="firstname" value="">
+  <input type="text" id='fname' name="firstname" value="">
   <br>
   Last name:<br>
-  <input type="text" name="lastname" value="">
+  <input type="text" id='lname' name="lastname" value="">
   <br>
   Email:<br>
-  <input type="text" name="email" value="">
+  <input type="text" id='email' name="email" value="">
   <br>
   Gender:<input type="radio" name="gender" value="Male">Male
   <input type="radio" name="gender" value="Female">Female
   <br><br>
-  <input type="submit" value="Submit" onclick="alert('You have registered successfully!')">
+  <input type="submit" value="Submit" onclick="check()">
 </form> 
 <p style="color:blue;">You are regestring to receive an email updates about upcoming events in the city.</p>
 </body>
