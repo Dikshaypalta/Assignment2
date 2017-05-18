@@ -1,0 +1,135 @@
+body {
+    background-color: Gray;
+    background-image: url("5.jpg");
+    height: 1000px;
+    margin-left :60px;
+    margin-right: 60px;
+}
+
+h1 {
+   
+    color: navy;
+
+    margin-left: 20px;
+
+}
+h2 {
+   
+    color: navy;
+
+    margin-left: 20px;
+
+}
+
+h3 {
+   
+    color: navy;
+
+    margin-left: 20px;
+
+}
+
+.hbar1 {
+    float: left;
+    text-align: center;
+}
+
+.hbar1 a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;    
+}
+
+.lst1 {
+     background-color: black;
+     display: inline-block;
+     list-style-type: none;
+}
+
+#links-div {
+     background-color: black;
+}
+
+#links-ext {
+     background-color: black;
+     background-color: black;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 30px;
+}
+
+#hrf {
+     color: white;
+     font-size: 30px;
+     text-decoration: none;
+     margin-left: 45px;
+}
+
+#img1 {
+     height: 120px;
+     width: 100px;
+     margin: 10px;
+     float: right;
+}
+
+#img2 {
+     height: 250px;
+     width: 200px;
+     margin: 10px;
+     
+}
+
+#mcp1 {
+     background-color: black;
+     color: white;
+     padding:20px;
+     margin-top: 40px;
+     font-size: 40px;
+}
+
+#pts1 {
+     background-color: black;
+     height: 450px;
+}
+
+#form1 {
+     background-color: gray;
+     height: 500px;
+     padding: 20px;
+}
+
+#abt-div1 {
+     background-color: black;
+     color: white;
+     padding:20px;
+}
+
+#abt-div2 {
+     background-color: black;
+     color: red;
+     padding: 20px;
+}
+
+#abt-div3 {
+     background-color: black;
+     color: pink;
+     padding: 20px;
+}
+
+#abt-div4 {
+     background-color :black;
+     color: green;
+     padding: 20px;"
+}
+
+
+
+
+
+
+
+
+
+
+
+

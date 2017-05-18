@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <script>
 function check(){
 var s="";
@@ -27,24 +31,58 @@ else
 alert('For submitted succesfully');
 }
 </script>
+
 </head>
+
 <body>
+
+<h1>Welcome to XYZ City!!</h1>
+<h2>This is the register page</h2>
+<h3 class="myh3">A smaller heading</h3>
+<div>
+<hr/>
+<div id="links-div">
+<ul class="lst1">
+<li class="hbar1"><a href="index0.html">Home</a></li>
+<li class="hbar1"><a href="about.html">About</a></li>
+<li class="hbar1"><a href="photos.html">Photo Gallery</a></li>
+<li class="hbar1"><a href="myacct.html">My Account</a></li>
+<li class="hbar1"><a href="register.html">Register</a></li>
+</ul>
+</div>
+<div id="links-ext">
+<p id="para1"><a id="hrf" href="attractions.html">Attractions</a></p>
+<p class="para2"><a id="hrf" href="sports.html">Sports Teams</a></p>
+</div>
+</div>
+<hr />
+<div id="form1">
 <form>
-<h1>Welcome to the XYZ city !!</h1> 
- First name:<br>
-  <input type="text" id='fname' name="firstname" value="">
-  <br>
-  Last name:<br>
+
+<h1>Welcome to the XYZ city !!</h1>
+
+First name:<br><input type="text" id='fname' name="firstname" value=""> <br>
+ 
+Last name:<br>
   <input type="text" id='lname' name="lastname" value="">
   <br>
-  Email:<br>
+  
+Email:<br>
   <input type="text" id='email' name="email" value="">
   <br>
-  Gender:<input type="radio" name="gender" value="Male">Male
-  <input type="radio" name="gender" value="Female">Female
+  
+Gender:<input type="radio" name="gender" value="Male">
+Male
+  <input type="radio" name="gender" value="Female">
+Female
   <br><br>
   <input type="submit" value="Submit" onclick="check()">
+
 </form> 
+
 <p style="color:blue;">You are regestring to receive an email updates about upcoming events in the city.</p>
+
+</div>
 </body>
+
 </html>
